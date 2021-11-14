@@ -2,6 +2,10 @@
 
 :world_map:	:world_map:	:world_map:	:world_map:	:world_map:	:world_map:	:world_map:	:world_map:	:world_map:	:world_map:	:world_map:	:world_map:	:world_map:
 
+**PREVIEW**: https://leticiatomasio.github.io/natours/
+
+SCSS/CSS project following BEM (Block Element Modifier) pattern: Web page for a travel agency called Natours designed by Web Developer Jonas Schmedtmann. Application built from Jonas's tutorial: [Advanced CSS and SASS](https://www.udemy.com/course/advanced-css-and-sass/).
+
 ## Installing dependencies
 
 Inside the root directory, run the command `npm install`.
