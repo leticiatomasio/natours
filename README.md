@@ -13,3 +13,8 @@ Inside the root directory, run the command `npm install`.
 ## Development server
 
 Run the command `live-server` to start the web page. It will automatically reload if you change any original file.
+
+## Editing SCSS
+
+If editing .scss files, run `npm run compile:sass` to see the changes on your navigator.
+
