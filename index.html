@@ -29,19 +29,19 @@
       <nav class="navigation__nav">
         <ul class="navigation__list">
           <li class="navigation__item">
-            <a href="" class="navigation__link">About Natours</a>
+            <a href="#section-about" class="navigation__link">About Natours</a>
           </li>
           <li class="navigation__item">
-            <a href="" class="navigation__link">Your benefits</a>
+            <a href="#" class="navigation__link">Your benefits</a>
           </li>
           <li class="navigation__item">
-            <a href="" class="navigation__link">Popular tours</a>
+            <a href="#section-tours" class="navigation__link">Popular tours</a>
           </li>
           <li class="navigation__item">
-            <a href="" class="navigation__link">Stories</a>
+            <a href="#section-stories" class="navigation__link">Stories</a>
           </li>
           <li class="navigation__item">
-            <a href="" class="navigation__link">Book now</a>
+            <a href="#section-book" class="navigation__link">Book now</a>
           </li>
         </ul>
       </nav>
@@ -64,7 +64,7 @@
     </header>
 
     <main>
-      <section class="section-about">
+      <section class="section-about" id="section-about">
         <div class="u-center-text u-margin-bottom-big">
           <h2 class="heading-secondary">
             Exciting tours for adventurous people
@@ -112,7 +112,7 @@
         </div>
       </section>
 
-      <section class="section-features">
+      <section class="section-features" id="section-features">
         <div class="row">
           <div class="col-1-of-4">
             <div class="feature-box">
@@ -165,7 +165,7 @@
         </div>
       </section>
 
-      <section class="section-tours">
+      <section class="section-tours" id="section-tours">
         <div class="u-center-text u-margin-bottom-big">
           <h2 class="heading-secondary">Most Popular Tours</h2>
         </div>
@@ -195,7 +195,7 @@
                     <div class="card__price-only">Only</div>
                     <div class="card__price-value">$497</div>
                   </div>
-                  <a href="#" class="btn btn--white">Book now!</a>
+                  <a href="#popup" class="btn btn--white">Book now!</a>
                 </div>
               </div>
             </div>
@@ -225,7 +225,7 @@
                     <div class="card__price-only">Only</div>
                     <div class="card__price-value">$897</div>
                   </div>
-                  <a href="#" class="btn btn--white">Book now!</a>
+                  <a href="#popup" class="btn btn--white">Book now!</a>
                 </div>
               </div>
             </div>
@@ -255,15 +255,65 @@
                     <div class="card__price-only">Only</div>
                     <div class="card__price-value">$197</div>
                   </div>
-                  <a href="#" class="btn btn--white">Book now!</a>
+                  <a href="#popup" class="btn btn--white">Book now!</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
+        <div class="u-center-text u-margin-top-huge">
+          <a href="#" class="btn btn--green">Discover all tours</a>
+        </div>
+
+        <div class="popup" id="popup">
+          <div class="popup__content">
+            <div class="popup__left">
+              <img src="img/nat-8.jpg" alt="Tour photo" class="popup__img" />
+              <img src="img/nat-9.jpg" alt="Tour photo" class="popup__img" />
+            </div>
+            <div class="popup__right">
+              <a href="#section-tours" class="popup__close">&times;</a>
+              <h2 class="heading-secondary u-margin-bottom-small">
+                Start booking now
+              </h2>
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                Important &ndash; Please read these terms before booking
+              </h3>
+              <p class="popup__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. In
+                nibh mauris cursus mattis. Auctor neque vitae tempus quam
+                pellentesque nec nam aliquam sem. Turpis egestas sed tempus urna
+                et pharetra pharetra massa massa. Ligula ullamcorper malesuada
+                proin libero nunc consequat interdum varius. Viverra orci
+                sagittis eu volutpat odio facilisis mauris sit. Eu sem integer
+                vitae justo eget. Facilisi cras fermentum odio eu feugiat
+                pretium. Nunc id cursus metus aliquam eleifend. Cursus risus at
+                ultrices mi tempus imperdiet. Maecenas accumsan lacus vel
+                facilisis volutpat. Suspendisse interdum consectetur libero id
+                faucibus nisl tincidunt. Fringilla urna porttitor rhoncus dolor
+                purus. Faucibus nisl tincidunt eget nullam non. Dolor magna eget
+                est lorem ipsum. Sapien eget mi proin sed libero enim sed
+                faucibus. Dolor sit amet consectetur adipiscing. In massa tempor
+                nec feugiat. Nec sagittis aliquam malesuada bibendum arcu. Cras
+                tincidunt lobortis feugiat vivamus at augue eget arcu. Elementum
+                facilisis leo vel fringilla. Sodales ut etiam sit amet. Diam
+                vulputate ut pharetra sit amet aliquam id diam. In arcu cursus
+                euismod quis viverra nibh. Et ligula ullamcorper malesuada proin
+                libero. Ut tristique et egestas quis ipsum suspendisse ultrices
+                gravida dictum. Et odio pellentesque diam volutpat commodo sed
+                egestas. Vitae turpis massa sed elementum tempus egestas sed
+                sed. Congue nisi vitae suscipit tellus mauris a diam maecenas
+                sed. Facilisis gravida neque convallis a cras. Ultrices in
+                iaculis nunc sed augue. Amet purus gravida quis blandit turpis.
+              </p>
+              <a href="#section-book" class="btn btn--green">Book now</a>
+            </div>
+          </div>
+        </div>
       </section>
 
-      <section class="section-stories">
+      <section class="section-stories" id="section-stories">
         <div class="bg-video">
           <video class="bg-video__content" autoplay muted loop>
             <source src="img/video.mp4" type="video/mp4" />
@@ -329,7 +379,7 @@
         </div>
       </section>
 
-      <section class="section-book">
+      <section class="section-book" id="section-book">
         <div class="row">
           <div class="book">
             <div class="book__form">
