@@ -52,10 +52,14 @@
         <img src="img/logo-white.png" alt="Logo" class="header__logo" />
       </div>
       <div class="header__text-box">
-        <h1 class="heading-primary">
+        <h1 class="heading-primary u-margin-bottom-medium">
           <span class="heading-primary--main">Outdoors</span>
           <span class="heading-primary--sub">is where life happens</span>
         </h1>
+
+        <a href="#section-tours" class="btn btn--white btn--animated"
+          >Discover our tours</a
+        >
       </div>
     </header>
 
@@ -191,6 +195,7 @@
                     <div class="card__price-only">Only</div>
                     <div class="card__price-value">$497</div>
                   </div>
+                  <a href="#" class="btn btn--white">Book now!</a>
                 </div>
               </div>
             </div>
@@ -220,6 +225,7 @@
                     <div class="card__price-only">Only</div>
                     <div class="card__price-value">$897</div>
                   </div>
+                  <a href="#" class="btn btn--white">Book now!</a>
                 </div>
               </div>
             </div>
@@ -249,6 +255,7 @@
                     <div class="card__price-only">Only</div>
                     <div class="card__price-value">$197</div>
                   </div>
+                  <a href="#" class="btn btn--white">Book now!</a>
                 </div>
               </div>
             </div>
@@ -350,29 +357,35 @@
                   />
                   <label class="form__label" for="email">Email address</label>
                 </div>
-                <div class="form__radio-group">
-                  <input
-                    class="form__radio-input"
-                    type="radio"
-                    id="small"
-                    name="size"
-                  />
-                  <label class="form__radio-label" for="small">
-                    <span class="form__radio-button"></span>
-                    Small tour group
-                  </label>
+                <div class="form__group u-margin-bottom-medium">
+                  <div class="form__radio-group">
+                    <input
+                      class="form__radio-input"
+                      type="radio"
+                      id="small"
+                      name="size"
+                    />
+                    <label class="form__radio-label" for="small">
+                      <span class="form__radio-button"></span>
+                      Small tour group
+                    </label>
+                  </div>
+                  <div class="form__radio-group">
+                    <input
+                      class="form__radio-input"
+                      type="radio"
+                      id="large"
+                      name="size"
+                    />
+                    <label class="form__radio-label" for="large">
+                      <span class="form__radio-button"></span>
+                      Large tour group
+                    </label>
+                  </div>
                 </div>
-                <div class="form__radio-group">
-                  <input
-                    class="form__radio-input"
-                    type="radio"
-                    id="large"
-                    name="size"
-                  />
-                  <label class="form__radio-label" for="large">
-                    <span class="form__radio-button"></span>
-                    Large tour group
-                  </label>
+
+                <div class="form__group">
+                  <button class="btn btn--green">Next step &rarr;</button>
                 </div>
               </form>
             </div>
